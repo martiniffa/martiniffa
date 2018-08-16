@@ -1,7 +1,8 @@
 <?php if ( bard_options('header_image_label') === true ) : ?>
 
-	<div class="entry-header" data-parallax="<?php echo esc_attr(bard_options( 'header_image_parallax' )); ?>" data-image="<?php echo esc_attr(get_header_image()); ?>">
-		<div class="cv-outer">
+	<div class="entry-header">
+		<img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg">
+		<!-- <div class="cv-outer">
 		<div class="cv-inner">
 
 			<div class="header-logo">
@@ -37,7 +38,7 @@
 			?>
 
 		</div>
-		</div>
+		</div> -->
 	</div>
 
 <?php endif; ?>
