@@ -25,5 +25,9 @@ if ( class_exists( 'WooCommerce' ) ) {
 		}
 
 		?>
+<!-- 		custom code need clear when theme will be update
+ -->		<div class="sidebar-banner">
+			<img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg">
+		</div>
 	</aside>
 </div>
